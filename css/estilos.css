@@ -368,11 +368,52 @@ footer .centro a {
     padding: 10px;
 }
 
+.columna_form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 .fila_contacto {
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+}
+
+.fila_contacto_boton:hover {
+    cursor: pointer;
+}
+
+.fila_contacto input:hover {
+    color: white;
+    background-color: rgb(124, 124, 124);
+    cursor: pointer
+}
+
+.fila_contacto input:focus {
+    outline: none
+}
+
+.fila_contacto input {
+    color: white;
+    background-color: #3f3f3f;
+}
+
+.formulario {
+    margin: 40px;
+    width: 50%; 
+    padding: 20px; 
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5); 
+    border-radius: 15px; 
+    background-color: #3f3f3f46; 
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 form {
@@ -402,17 +443,6 @@ form {
     justify-content: space-between; 
     padding: 10px;
 } */
-
-.fila_contacto input {
-    color: white;
-    background-color: #3f3f3f;
-}
-
-.fila_contacto input:hover {
-    color: white;
-    background-color: rgb(124, 124, 124);
-    cursor: pointer;
-}
 
 /* Compra */
 
@@ -573,6 +603,7 @@ span {
 
 .descripcion1 {
     width: 70%;
+    padding: 30px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -581,6 +612,7 @@ span {
 
 .descripcion1 h2 {
     color: white;
+    margin: 40px;
     padding: 20px;
     background-color: #3f3f3f;
     border-radius: 10px;
