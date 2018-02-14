@@ -660,6 +660,57 @@ span {
 
 /* Media Queries */
 
+@media (max-width: 916px) {
+
+    .centro {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end
+    }
+
+    .cont_compra {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px);
+        grid-template-rows: repeat(2, 400px);
+        grid-gap: 50px;
+        justify-content: space-around;
+        padding-bottom: 60px;
+    }
+
+    .tarjeta {
+        font-size: 14px;
+        width: 300px;
+        height: 400px;
+        background: -webkit-linear-gradient( top, #3f3f3f02, black);
+        color: white;
+        box-shadow: 6px 6px 8px grey;
+        border-radius: 15px;
+    }
+
+    .imagen {
+        width: 300px;
+        height: 200px;
+    }
+
+    /* .imagen img {
+   
+        background-position: center;
+        border-radius: 15px;
+    } */
+
+    .pagina {
+        color: white;
+        margin: 20px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: #3f3f3f;
+        text-decoration: none;
+    }
+
+}
+
 @media (max-width: 760px) {
     header .burger {
         display: initial;
